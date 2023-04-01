@@ -25,6 +25,10 @@ header {
   background-color: #EEEEEE;
 }
 
+.step:last-child {
+  margin-right: 0;
+  }
+
 .step-number {
   width: min-content;
   background-color: #FF9A4B;
@@ -35,7 +39,9 @@ header {
 }
 
 .step-number {
+  font-size: 14px;
   color: #FFF;
+  padding: 2px;
 }
 
 
@@ -85,6 +91,6 @@ footer {
   }
 
   .step:last-child {
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 }
